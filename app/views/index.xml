@@ -1,0 +1,42 @@
+<Alloy>
+	<Window class="container" id="index">
+		<View id="textview" height='Titanium.UI.SIZE' top="20%">
+			<Label id="textArea" text="0" />
+			
+		</View>
+		<View id="mainview" top="35%" height="65%">
+			<View id="zero" class="row" top="0">
+				<Button id="reset" class="btn_b" title="AC" left="1%" color="#DB991F" />
+				<View id="del" class="btn_b" left="51%">
+					<ImageView image="/delete.png"></ImageView>
+				</View>
+
+
+			</View>
+			<View id="first" class="row" top="65" >
+				<Button id="n7" class="btn" title="7" left="1%" />
+				<Button id="n8" class="btn" title="8" left="25.75%" />
+				<Button id="n9" class="btn" title="9" left="50.5%" />
+				<Button id="divide" class="btn" title="/" left="75.25%" backgroundColor="#DB991F"/>
+			</View>
+			<View id="second" class="row" top="130" >
+				<Button id="n4" class="btn" title="4" left="1%" />
+				<Button id="n5" class="btn" title="5" left="25.75%"/>
+				<Button id="n6" class="btn" title="6" left="50.5%"/>
+				<Button id="multiply" class="btn" title="x" left="75.25%" backgroundColor="#DB991F"/>
+			</View>
+			<View id="third" class="row" top="195" >
+				<Button id="n1" class="btn" title="1" left="1%" />
+				<Button id="n2" class="btn" title="2" left="25.75%"/>
+				<Button id="n3" class="btn" title="3" left="50.5%"/>
+				<Button id="minus" class="btn" title="-" left="75.25%" backgroundColor="#DB991F"/>
+			</View>
+			<View id="fourth" class="row" top="260" >
+				<Button id="point" class="btn" title="." left="25.75%"/>
+				<Button id="n0" class="btn" title="0" left="1%"/>
+				<Button id="equal" class="btn" title="=" left="50.5%" backgroundColor="#DB991F"/>
+				<Button id="plus" class="btn" title="+" left="75.25%" backgroundColor="#DB991F"/>
+			</View>
+		</View>
+	</Window>
+</Alloy>
